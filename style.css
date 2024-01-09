@@ -203,14 +203,14 @@ address {
     font-size: 25px;
     font-weight: 500;
     color: black;
+    margin: 10px;
 }
 
 .holiday .function-title {
     font-size: 72px;
     font-weight: 900;
     color: black;
-    padding-bottom: 20px;
-    margin-top: -20px;
+    
 }
 
 .holiday .function-title .red {
@@ -218,7 +218,7 @@ address {
 }
 
 .function-description {
-    margin-top: -50px;
+
     color: rgba(7, 2, 17, 0.60);
     line-height: 32px;
     font-size: 20px;
@@ -234,8 +234,6 @@ address {
     background-size:auto;
     width: 1350px;
     height: 400px;
-    padding-top: 150px;
-    margin-left: 550px;
     border-radius: 15px 0px 15px 15px;
 }
 .border .banner{
@@ -248,23 +246,22 @@ address {
 }
 .products-picture{
     text-align: left;
-    padding-left: 600px;
+    padding: 30px;
+
 
 }
 
 .products-picture .gifts{
     color: #f00;
     font-size: 24px;
-    font-weight: 500;
-    margin-bottom: -20px;
-   
+    font-weight: 500;  
 
 }
 .products-picture .portfolio{
     font-size: 48px;
     font-weight: 900;
     color: #070211;
-    margin-bottom: -10px;
+
     
 }
 .products-picture .describe{
@@ -275,7 +272,8 @@ address {
 }
 .pictures{
     text-align: center;
-
+    width: 100%;
+    height: 100%;
 }
 .pictures .first-3-picture img{
     margin-left: 15px;
@@ -286,11 +284,9 @@ address {
     margin-bottom: 15px;
 }
 .subscribe{
-    width: 52%;
+    width: 100%;
     height: 100%;
     background-color: bisque;
-    margin-left: 600px;
-    margin-right: 800px;
     border-radius: 16px 16px 16px 16px;
     margin-bottom: 20px;
 
@@ -308,7 +304,6 @@ address {
     font-weight: 900;
 }
 .subscribe-search{
-    padding-left: 350px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -342,13 +337,12 @@ form button{
     border-radius: 0px 20px 20px 0px;
 }
 footer section{
-    margin-top: 120px;
+    margin-top: 0px;
 }
 .footer{
-    width: 52%;
-    height: 40vh;
+    width: 100%;
+    height: 100%;
     background-color: #070211;
-    margin-left: 600px;
     border-radius: 20px;
     color: #fff;
 }
@@ -357,8 +351,8 @@ footer section{
 
 }
 .footer-top-left{
-    padding-left: 140px;
-    padding-top: 80px;
+    padding-top: 40px;
+    padding-left: 60px;
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
@@ -366,21 +360,20 @@ footer section{
 }
 .footer-right{
     text-align: right;
-    padding-top: 70px;
+    padding-top: 40px;
     font-size: 27px;
     font-weight: 500;
     color: #fff;
 }
 .footer-top-right{
     text-align: right;
-    padding-left: 400px;
+    padding-left: 40px;
     font-size: 24px;
     font-weight: 500;
     color: #fff;
 }
 .footer-buttom-left{
-    padding-left: 140px;
-    padding-top: 40px;
+    padding-left: 20px;
     font-size: 24px;
     font-weight: 500;
     color: #fff;
@@ -390,15 +383,12 @@ footer section{
 }
 .footer-buttom-right{
     text-align: right;
-    padding-left: 520px;
-    padding-top: 40px;
+    padding-left: 20px;
     font-size: 24px;
     font-weight: 500;
 
 }
 .footer-images-logo{
     display: flex;
-    justify-content: center;
-    padding: 20px;
     border: 0.5px solid rgb(57, 49, 49);
 }
