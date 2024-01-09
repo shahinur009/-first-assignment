@@ -99,8 +99,12 @@ main section{
     border-radius: 25px;
     padding: 20px;
     font-weight: 500;
+    cursor: pointer;
 }
-
+.button:hover{
+    color: #e10909;
+    background-color:aqua;
+}
 .btn {
     background-color: orange;
     color: white;
@@ -109,9 +113,13 @@ main section{
     padding: 20px 10px ;
     font-weight: 500;
     margin-top: 20px;
+    cursor: pointer;
 
 }
-
+.btn:hover{
+    color: #070211;
+    background-color: rgb(210, 17, 165);
+}
 
 .address-container {
     width: 1320px;
@@ -343,6 +351,11 @@ form button{
     cursor: pointer;
     font-size: 20px;
     border-radius: 0px 20px 20px 0px;
+    font-weight: 700;
+}
+form button:hover{
+    color: red;
+    background-color: green;
 }
 footer section{
     margin-top: 0px;
