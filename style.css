@@ -270,18 +270,25 @@ address {
     color: rgba(7, 2, 17, 0.60);
     
 }
-.pictures{
-    text-align: center;
+.card{
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding: 10px;
+
 }
-.pictures .first-3-picture img{
-    margin-left: 15px;
-    margin-bottom: 15px;
+.container-card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
 }
-.pictures .second-3-picture img{
-    margin-left: 15px;
-    margin-bottom: 15px;
+.container-card .card-picture img{
+    width: 100%;
+    height: 100%;
 }
 .subscribe{
     width: 100%;
@@ -386,9 +393,16 @@ footer section{
     padding-left: 20px;
     font-size: 24px;
     font-weight: 500;
+    padding-bottom: 100px;
 
 }
 .footer-images-logo{
     display: flex;
     border: 0.5px solid rgb(57, 49, 49);
+    justify-content: center;
+}
+.footer-images-logo img{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
 }
